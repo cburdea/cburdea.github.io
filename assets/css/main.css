@@ -2204,9 +2204,19 @@ input, select, textarea {
 			border-radius: 0;
 		}
 
+		@media screen and (max-width: 568px){
 			.image.main img {
 				border-radius: 0;
 			}
+		}
+
+		@media screen and (min-width: 569px){
+			.image.main img {
+				border-radius: 0;
+				object-position: 0 -90px;
+			}
+		}
+
 
 /* List */
 
